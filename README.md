@@ -74,4 +74,10 @@ Submitted as part of pre-work for **Caprae Capital** internship.
 
 ---
 
+## LICENSE
+
+[LICENSE](LICENSE)
+
 Built with ❤️ by Ryan Gading Abdullah
+
+&copy; 2025 Ryan Gading Abdullah. All rights reserved.
