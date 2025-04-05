@@ -108,7 +108,7 @@ def search_leads(query, num_results=30):
     driver.quit()
     return results
 
-def save_to_csv(results, filename="leads.csv"):
+def save_to_csv(results, filename="leads_selenium.csv"):
     with open(filename, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["title", "url", "emails"])
         writer.writeheader()

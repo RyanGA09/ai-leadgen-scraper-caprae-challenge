@@ -17,7 +17,7 @@ if st.button("Run Search"):
         df["emails"] = df["emails"].apply(lambda x: ", ".join(x) if isinstance(x, list) else x)
         st.success("Leads fetched and saved to leads.csv!")
         st.dataframe(df)
-        st.download_button("Download CSV", df.to_csv(index=False), file_name="leads.csv", mime="text/csv")
+        st.download_button("Download CSV", df.to_csv(index=False), file_name="leads_streamlit.csv", mime="text/csv")
 
 st.markdown("---")
 st.caption("Built for Caprae Capital Pre-Work Assignment")
