@@ -1,0 +1,4 @@
+selenium==4.17.2
+serpapi==0.1.4
+streamlit==1.31.1
+pandas==2.2.1

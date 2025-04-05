@@ -1,0 +1,44 @@
+# walkthrough_script.txt
+
+---
+🎤 **Opening**
+Hi, this is Ryan Gading Abdullah and this is a quick walkthrough of my submission for the Caprae Capital internship pre-work.
+
+---
+🧑‍💻 **What I Built**
+I’ve built a Python-based lead generation tool that scrapes Google search results for companies and their contact information.
+It uses Selenium and BeautifulSoup to extract the page title, URL, and any visible emails.
+
+---
+🖥️ **Demo (Selenium)**
+Let me show you the CLI version.
+- I input the search query (e.g., "AI startup San Francisco") and number of results.
+- The tool runs headlessly using Chrome, fetches search results, and visits each one to extract emails.
+- Once finished, the results are saved to a CSV file: `leads.csv`
+
+---
+🌐 **Demo (Streamlit)**
+I also added a simple web interface using Streamlit:
+- You can enter keywords and number of leads to find.
+- Click search, and results will show up in a table.
+- There’s also a download button to export results.
+
+---
+🛠️ **Bonus: SerpAPI Version**
+I prepared a separate version using SerpAPI, in case scraping limits or performance become an issue.
+You just need to add your API key as an environment variable.
+
+---
+📂 **Files**
+The project includes:
+- CLI scraper (`scraper_selenium.py`)
+- Streamlit UI (`streamlit_app.py`)
+- SerpAPI version (`scraper_serpapi.py`)
+- README, report, and this script
+
+---
+✅ **Closing**
+Thanks for reviewing my submission. Feel free to reach out if you have any questions!
+
+---
+End of script.
