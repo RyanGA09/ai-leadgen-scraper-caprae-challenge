@@ -19,7 +19,6 @@ caprae-scraper/
 ├── report.md                # Technical explanation 1 page
 ├── streamlit_app.py         # Simple UI display
 ├── scraper_selenium.py      # Scraper with Selenium (main)
-├── scraper_serpapi.py       # Scraper with SerpAPI (optional)
 ├── leads.csv                # Output file
 └── assets/
     └── walkthrough_script.txt
