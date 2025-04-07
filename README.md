@@ -14,9 +14,11 @@ A lead generation tool using **Selenium** to find company names, URLs, and email
 caprae-scraper/ 
 ├── README.md 
 ├── report.md # Technical explanation 1 page 
-├── streamlit_app.py # Web UI 
-├── scraper_selenium.py # Scraper with Selenium (main) 
-├── leads.csv # Output file 
+├── streamlit_app_selenium.py # Web UI 
+├── scraper_selenium.py # Scraper with Selenium (Main) 
+├── scraper_selenium.ipynb # Scraper with Selenium (Demo) 
+├── leads_selenium.csv # Output file (Main)
+├── demo_leads.csv.csv # Output file (Demo)
 └── assets/ 
     └── walkthrough_script.txt
 ```

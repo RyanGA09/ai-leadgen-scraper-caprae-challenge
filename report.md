@@ -4,7 +4,7 @@
 
 Build a lead generation tool that scrapes:
 
-- Company Name / Page Title
+- Company Name / Page Title ("No Title" if title unavailable)
 - URL
 - Email (if available)
 
@@ -16,8 +16,8 @@ Using Google Search + scraping approach.
 
 - **Python**
 - **Selenium** (Headless Chrome)
-- **BeautifulSoup** (for HTML parsing)
 - **Streamlit** (for frontend)
+- **Jupyter Notebook** (for prototyping & demo)
 
 ---
 
@@ -27,7 +27,7 @@ Using Google Search + scraping approach.
 
 ---
 
-## 📑 Sample Output (Top 5 Results)
+## 📑 Sample Output (Top 5 Results) - Example
 
 | Title                              | URL                    | Emails                 |
 | ---------------------------------- | ---------------------- | ---------------------- |
@@ -46,9 +46,10 @@ Using Google Search + scraping approach.
 - [x] Scraper works end-to-end
 - [x] Output is saved in CSV
 - [x] UI available via Streamlit
+- [x] Jupyter Notebook demo included
 
 ---
 
 Prepared by: **Ryan Gading Abdullah**  
-Date: {{today}}  
+Date: **08/04/2025**  
 For: **Caprae Capital Internship Pre-Work**
