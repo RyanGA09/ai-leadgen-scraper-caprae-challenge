@@ -16,9 +16,8 @@ Using Google Search + scraping approach.
 
 - **Python**
 - **Selenium** (Headless Chrome)
-- **Streamlit** (for optional frontend)
 - **BeautifulSoup** (for HTML parsing)
-- _(Optional)_ SerpAPI for structured search
+- **Streamlit** (for frontend)
 
 ---
 
@@ -47,10 +46,9 @@ Using Google Search + scraping approach.
 - [x] Scraper works end-to-end
 - [x] Output is saved in CSV
 - [x] UI available via Streamlit
-- [x] Optional SerpAPI integration ready
 
 ---
 
-Prepared by: **Ryan Gading Abdullah**
-Date: {{today}}
+Prepared by: **Ryan Gading Abdullah**  
+Date: {{today}}  
 For: **Caprae Capital Internship Pre-Work**

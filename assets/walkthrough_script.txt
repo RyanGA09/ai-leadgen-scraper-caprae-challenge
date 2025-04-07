@@ -24,16 +24,11 @@ I also added a simple web interface using Streamlit:
 - There’s also a download button to export results.
 
 ---
-🛠️ **Bonus: SerpAPI Version**
-I prepared a separate version using SerpAPI, in case scraping limits or performance become an issue.
-You just need to add your API key as an environment variable.
-
----
 📂 **Files**
 The project includes:
 - CLI scraper (`scraper_selenium.py`)
-- Streamlit UI (`streamlit_app.py`)
-- SerpAPI version (`scraper_serpapi.py`)
+- Streamlit UI (`streamlit_app_selenium.py.py`)
+- CSV output
 - README, report, and this script
 
 ---
