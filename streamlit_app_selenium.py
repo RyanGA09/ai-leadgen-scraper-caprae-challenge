@@ -1,4 +1,4 @@
-# streamlit_app.py
+# streamlit_app_selenium.py
 import streamlit as st
 from scraper_selenium import search_leads, save_to_csv
 import pandas as pd
