@@ -1,4 +1,5 @@
 # scraper_selenium.py
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -82,7 +83,7 @@ def search_leads(query, num_results=30):
                     results.append({
                         "title": title if title else "(No title)",
                         "url": url if url else "(No URL)",
-                        "emails": emails
+                        "emails": emails if url else "(No emails)"
                     })
                 except Exception as e:
                     print(f"Error accessing result: {e}")
@@ -110,7 +111,11 @@ def search_leads(query, num_results=30):
     return results
 
 def save_to_csv(results, filename="leads_selenium.csv"):
-    with open(filename, mode="w", newline="", encoding="utf-8") as f:
+    folder_path = "assets/data"
+    os.makedirs(folder_path, exist_ok=True)  # Buat folder jika belum ada
+    full_path = os.path.join(folder_path, filename)
+
+    with open(full_path, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["title", "url", "emails"])
         writer.writeheader()
         for row in results:
@@ -122,9 +127,9 @@ def save_to_csv(results, filename="leads_selenium.csv"):
 
 if __name__ == "__main__":
     query = input("Enter your lead generation keyword: ")
-    leads = search_leads(query, num_results=20)  # Ganti sesuai kebutuhan
+    leads = search_leads(query, num_results=20)
     if leads:
         save_to_csv(leads)
-        print("Saved to leads.csv")
+        print("Saved to assets/data/leads_selenium.csv")
     else:
         print("No leads found.")
