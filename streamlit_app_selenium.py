@@ -28,7 +28,7 @@ if st.button("Run Search"):
             # Format the email addresses to be displayed in a readable way
             df["emails"] = df["emails"].apply(display_emails)
             
-            st.success("Leads fetched and saved to leads.csv!")
+            st.success("Leads fetched and saved to assets/data/leads_selenium.csv!")
             st.dataframe(df)
             
             # Add a download button for the CSV file

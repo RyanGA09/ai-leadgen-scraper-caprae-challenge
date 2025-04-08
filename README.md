@@ -55,14 +55,14 @@ jupyter notebook scraper_selenium.ipynb
 
 ## 📄 Files Included
 
-| File                      | Description                          |
-| ------------------------- | ------------------------------------ |
-| scraper_selenium.py       | Scraper using Selenium               |
-| streamlit_app_selenium.py | Streamlit interface                  |
-| scraper_selenium.ipynb    | Jupyter Notebook demo (step-by-step) |
-| leads.csv                 | Output CSV (Selenium results)        |
-| report.md                 | Summary of task and leads found      |
-| report.pdf                | Summary of task and leads found      |
+| File                      | Description                                |
+| ------------------------- | ------------------------------------------ |
+| scraper_selenium.py       | Scraper using Selenium                     |
+| streamlit_app_selenium.py | Streamlit interface                        |
+| scraper_selenium.ipynb    | Jupyter Notebook demo (step-by-step)       |
+| leads.csv                 | Output CSV (Selenium results)              |
+| report.md                 | Summary of task and leads found (Markdown) |
+| report.pdf                | Summary of task and leads found (Pdf)      |
 
 **📓 The Jupyter Notebook version is useful for walking through the scraping and email extraction process interactively, and is aligned with the optional demo guideline.**
 
