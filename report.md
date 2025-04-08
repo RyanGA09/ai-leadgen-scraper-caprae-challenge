@@ -27,7 +27,7 @@ Using Google Search + scraping approach.
 
 ---
 
-## 📑 Sample Output (Top 5 Results) - Example
+## 📑 Example Output (Top 5 Results)
 
 | Title                              | URL                    | Emails                 |
 | ---------------------------------- | ---------------------- | ---------------------- |
@@ -37,7 +37,7 @@ Using Google Search + scraping approach.
 | Future AI Talent                   | https://futureai.co    | info@futureai.co       |
 | SF AI Hub                          | https://sfaicenter.org | connect@sfaicenter.org |
 
-> All data exported to `leads.csv`
+> All data exported to `leads_selenium_.csv`
 
 ---
 

@@ -39,7 +39,7 @@ The project includes:
 - Streamlit UI (`streamlit_app_selenium.py`)
 - Jupyter Notebook walkthrough + debugging (`scraper_selenium.ipynb`)
 - CSV output
-- README, report, and this script
+- README, report
 
 ---
 ✅ **Closing**
