@@ -8,7 +8,7 @@ st.title("🔍 Lead Generation Scraper")
 
 # Text input and slider for search
 query = st.text_input("Enter your search keyword", "AI startup San Francisco")
-num_results = st.slider("Number of results", min_value=3, max_value=7, value=5)
+num_results = st.slider("Number of results", min_value=2, max_value=7, value=5)
 
 # Function to display email extraction
 def display_emails(email_list):

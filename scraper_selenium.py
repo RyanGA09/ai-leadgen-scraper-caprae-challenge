@@ -14,7 +14,7 @@ import re
 def extract_emails(text):
     return re.findall(r"[\w\.-]+@[\w\.-]+", text)
 
-def search_leads(query, num_results=30):
+def search_leads(query, num_results=10):
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--disable-gpu")
@@ -127,7 +127,7 @@ def save_to_csv(results, filename="leads_selenium.csv"):
 
 if __name__ == "__main__":
     query = input("Enter your lead generation keyword: ")
-    leads = search_leads(query, num_results=20)
+    leads = search_leads(query, num_results=7)
     if leads:
         save_to_csv(leads)
         print("Saved to assets/data/leads_selenium.csv")
