@@ -28,7 +28,7 @@ def search_leads(query, num_results=10):
     service = Service()
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
-    print("Searching for:", query)
+    print("Searching for: ", query)
     driver.get("https://www.google.com")
 
     results = []
