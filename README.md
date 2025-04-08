@@ -24,6 +24,9 @@ caprae-scraper/
 │   └── report
 │       ├── report.md # Technical explanation 1 page (Markdown)
 │       └── report.pdf # Technical explanation 1 page (PDF)
+├── requirements.txt # List of Python dependencies for the project environment
+├── .gitignore # Files/folders ignored by Git (e.g., __pycache__, venv, etc.)
+└── LICENSE # License file for project usage (MIT LICENSE)
 ```
 
 ## 🚀 Setup Instructions
